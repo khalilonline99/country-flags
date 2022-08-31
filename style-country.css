@@ -1,0 +1,26 @@
+#country-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+
+}
+.country-box {
+    border: solid 1px;
+    border-radius: 15px;
+    border-color: coral;
+    padding: 10px;
+}
+
+.flag-image {
+    max-width: 55%;
+    height: auto;
+    padding: 2px;
+}
+#country-flag {
+    max-width: 20%;
+    border: solid 1px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    border-color: rgb(148, 148, 148);
+    
+}
